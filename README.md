@@ -1,5 +1,5 @@
 # Lotto
-**[Demo](https://ines86.github.io/lotto/)**
+**[Demo](https://codepen.io/Melisandre860/pen/rrrmqB)**
 
 ![alt text](https://github.com/Ines86/lotto/blob/master/img/lotto.jpg "lotto app")
 
