@@ -1,0 +1,117 @@
+body {
+  overflow-x: hidden;
+  background: #dfe6e9;
+  font-family: "Courgette", cursive;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  transform: rotate(-7deg);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: #ff9800;
+  color: #fff;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #a29bfe;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #9e9e9e;
+  }
+}
+
+.step-one {
+  border-right: 4px dashed grey;
+  width: 400px;
+  padding-right: 20px;
+  h2,
+  p {
+    text-align: center;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .coupon {
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 10px;
+
+    div {
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      line-height: 50px;
+      background: #00bcd4;
+      border-radius: 50%;
+      font-weight: bold;
+      color: #fff;
+      position: relative;
+      cursor: pointer;
+    }
+  }
+}
+
+.yellow {
+  background: #fdcb6e;
+  color: #000;
+}
+
+.ball {
+  display: block;
+  background: black;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle at 10px 10px,
+    yellow,
+    rgba(165, 153, 21, 1)
+  );
+  color: #000;
+  font-weight: bold;
+
+  p {
+    text-decoration: underline;
+  }
+}
+
+.step-two {
+  padding-left: 20px;
+  min-width: 440px;
+
+  .wyniki {
+    display: flex;
+    padding-top: 10px;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}
